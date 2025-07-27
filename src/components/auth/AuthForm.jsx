@@ -722,7 +722,7 @@ import React, { useState, useEffect } from "react";
 import Button from "../ui/Button";
 import Input from "../ui/Input";
 
-const API_URL = "https://sahayogi-sauda-backend.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const AuthForm = ({ onLogin, setInitialMode }) => {
   const [isLogin, setIsLogin] = useState(true);
