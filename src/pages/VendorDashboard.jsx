@@ -1897,7 +1897,7 @@ import Input from "../components/ui/Input";
 import Modal from "../components/ui/Modal";
 import Notification from "../components/ui/Notification";
 
-const API_URL = "https://sahayogi-sauda-backend.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const MyDealCard = ({ deal, onArchive }) => {
   const getStatusInfo = (status) => {
