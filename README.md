@@ -4,6 +4,13 @@
 
 ---
 
+## 🔗 GitHub Repositories
+
+- **Frontend**: [sahayogi-sauda-frontend](https://github.com/pratyushpanda91/sahayogi-sauda-frontend)
+- **Backend**: [sahayogi-sauda-backend](https://github.com/pratyushpanda91/sahayogi-sauda-backend)
+
+---
+
 ## 💡 Inspiration & Problem Statement
 
 India's vibrant street food scene is powered by millions of dedicated vendors. However, behind every delicious plate lies a daily struggle: sourcing raw materials. Vendors operate in a fragmented and inefficient supply chain, often forced to buy small quantities at high retail prices. This lack of a structured system eats into their profits and limits their potential for growth.
@@ -50,12 +57,7 @@ By allowing vendors in the same market area to pool their daily requirements for
 
 ---
 
-## 🔗 GitHub Repositories
 
-- **Frontend**: [sahayogi-sauda-frontend](https://github.com/pratyushpanda91/sahayogi-sauda-frontend)
-- **Backend**: [sahayogi-sauda-backend](https://github.com/pratyushpanda91/sahayogi-sauda-backend)
-
----
 
 
 
