@@ -1,0 +1,70 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Default styles are now dark mode */
+body {
+  @apply bg-gray-900 text-gray-200 transition-colors duration-300;
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    theme("colors.gray.800") 1px,
+    transparent 0
+  );
+  background-size: 2.5rem 2.5rem;
+}
+
+@layer utilities {
+  .animation-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animation-slide-in-bottom {
+    animation: slideInBottom 0.7s ease-in-out;
+  }
+  @keyframes slideInBottom {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .highlight-word {
+    @apply relative inline-block;
+  }
+  .highlight-word::after {
+    content: "";
+    @apply absolute bottom-1.5 left-0 w-full h-3 bg-purple-800 -z-10;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
