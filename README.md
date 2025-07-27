@@ -1,6 +1,6 @@
 # 🤝 Sahayogi Sauda
 
-**Live Demo**: [https://sahayogi-sauda-frontend.vercel.app/](https://sahayogi-sauda-frontend-guup.vercel.app/)
+**Live Demo**: [https://sahayogi-sauda.beta/](https://sahayogi-sauda-frontend-guup.vercel.app/)
 
 ---
 
@@ -98,12 +98,12 @@ VITE_API_URL=http://localhost:5002/api
 npm run dev
 
 ```
-###☁️ Deployment
-## Backend: Hosted on Render as a web service, connected to the backend GitHub repo.
+### ☁️ Deployment
+ Backend: Hosted on Render as a web service, connected to the backend GitHub repo.
 
-## Frontend: Hosted on Vercel, connected to the frontend GitHub repo.
+ Frontend: Hosted on Vercel, connected to the frontend GitHub repo.
 
 Environment variables on both platforms are configured to connect backend and frontend.
 
 👨‍💻 Author
-Pratyush Panda
+- Pratyush Panda
