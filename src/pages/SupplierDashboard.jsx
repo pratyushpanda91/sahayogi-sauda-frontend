@@ -753,7 +753,7 @@ import Button from "../components/ui/Button";
 import Card from "../components/ui/Card";
 import Notification from "../components/ui/Notification";
 
-const API_URL = "https://sahayogi-sauda-backend.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const SupplierDashboard = ({ token }) => {
   const [filledDeals, setFilledDeals] = useState([]);
