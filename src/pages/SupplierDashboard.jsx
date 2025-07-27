@@ -753,7 +753,7 @@ import Button from "../components/ui/Button";
 import Card from "../components/ui/Card";
 import Notification from "../components/ui/Notification";
 
-const API_URL = "http://localhost:5002/api";
+const API_URL = "https://sahayogi-sauda-backend.onrender.com";
 
 const SupplierDashboard = ({ token }) => {
   const [filledDeals, setFilledDeals] = useState([]);
