@@ -722,7 +722,7 @@ import React, { useState, useEffect } from "react";
 import Button from "../ui/Button";
 import Input from "../ui/Input";
 
-const API_URL = "http://localhost:5002/api";
+const API_URL = "https://sahayogi-sauda-backend.onrender.com";
 
 const AuthForm = ({ onLogin, setInitialMode }) => {
   const [isLogin, setIsLogin] = useState(true);
